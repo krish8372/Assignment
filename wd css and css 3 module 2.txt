@@ -1,0 +1,609 @@
+
+
+
+(1). What are the benefits of using CSS?
+
+
+
+
+        _. Better Website Speed
+        
+        _. Easier to Maintain
+
+        _. Consistent Design
+ 
+        _. Time-Saving
+
+        _. Better Device Compatibility
+
+        
+               
+                      (1) Better Website Speed:- 
+
+                                                 - people usually wait for just a couple of seconds for a website to load.
+                                                   So, it’s important to ensure faster speed.
+
+                      (2) Easier to Maintain:-  
+
+                                                 - CSS is easy to maintain due to less maintenance time.
+
+                      (3) Consistent Design:-  
+
+                                                 - You would have seen many websites that are elegant and user-friendly.
+                                                 - One thing common to all these websites is consistency in design. 
+
+                      (4) Time-Saving:-
+
+                                                 - Due to faster speed and easier maintenance, CSS saves a lot of time and 
+                                                   effort in the web development process due to faster loading time.
+                                                 - Here, lesser time ensures designer efficiency.
+
+                      (5) Better Device Compatibility:-
+
+                                                 - People use different smart devices to view a particular website.
+                                                 - It can be a smartphone, PC or laptop. For this purpose, websites
+                                                   are required to be device compatible.
+                                                 - CSS ensures the task is done smoothly by providing better compatibility. 
+
+==================================================================================================================================================
+
+(2). What are the disadvantages of CSS?
+
+
+
+                
+        _. Confusion due to many CSS levels
+
+        _. Cross-Browser Issues
+
+        _. Security Issues
+
+        _. Extra Work for Developers
+
+        
+
+ 
+
+                      (1) Confusion due to many CSS levels
+
+                                                 - Beginners are more vulnerable to this issue.
+                                                 - They might get confused while opting to learn CSS as there are many
+                                                   levels of CSS such as CSS2, CSS3, etc.
+
+                      (2) Cross-Browser Issues
+
+                                                 - Different browsers work differently.
+                                                 - So, you have to check that changes implemented in the website via CSS codes 
+                                                   are reflected properly among all browsers.
+                      (3) Security Issues
+
+                                                 - Security is important in today’s world driven by technology and data.
+                                                 - One of the major disadvantages of CSS is that it has limited security.
+                      
+                      (4) Extra Work for Developers
+
+                                                 - Design services are required to consider and test all CSS codes across different 
+                                                   browsers for compatibility.
+                                                 - Due to developers testing compatibility for different browsers, their workload increases.
+
+==================================================================================================================================================
+
+
+(3). What is the difference between CSS2 and CSS3?
+
+
+
+
+
+
+                                                                             [difference]
+
+
+                                                 {.CSS2.}
+                                                 ========
+
+
+
+                                 - CSS splits up different sections of the code into modules
+
+                                 - There are new ways you can write CSS rules with a bunch of CSS selectors
+
+                                 - There is no backward compatibility with CSS2
+
+                                 - With CSS2 only web safe fonts can be used
+
+                                 - With CSS2 the concept of simple selectors were present
+
+                                 - CSS 2 Doesn't support the Border-Box property
+
+
+
+                                                 {.CSS3.}
+                                                 ========
+
+
+                                 - Both CSS and HTML were put into a single file, there was no concept of modules before.
+
+                                 - There were no new ways of writing the CSS rules.
+
+                                 - There is backward compatibility maintained with CSS 3
+
+                                 - With CSS3 special fonts can be used such as those in Google Fonts and TypeCast
+
+                                 - With CSS3 the selectors were called as a sequence of simple seletorscom
+
+                                 - CSS3 supports the Border-Box property
+   
+
+==================================================================================================================================================
+
+(4). Name a few CSS style components ?
+
+
+
+                                 1. Selecter:HTML element name, id name, class name.
+
+                                 2. Property:It's like an attribute such as background color,font-size,position,text-align,
+                                    color,border etc.
+                                
+                                 3. Values:which defines property or values allocate for properties.
+
+==================================================================================================================================================
+
+(5).  What do you understand by CSS opacity?
+
+
+                                 - The CSS opacity property is used to specify the transparency of an element.
+                                 
+                                 -  In simple word, you can say that it specifies the clarity of the image.
+
+
+
+                   Example :
+
+                             <style>     
+                             
+                                  img{  
+                                         opacity: 0.3;  
+                                         
+                                           }
+     
+                                   </style>
+
+==================================================================================================================================================
+
+(6). How can the background color of an element be changed?
+
+
+
+                       - The background-color property sets the background color of an element.
+ 
+                       - The background of an element is the total size of the element
+
+
+
+                                          {example}
+
+
+                                              =: Specify the background color with a HEX value:
+
+                                                                - body {background-color: #92a8d1;}
+
+ 
+                                              =: Specify the background color with an RGB value:
+
+                                                                - body {background-color: rgb(201, 76, 76);}
+
+                                              
+                                              =: Specify the background color with an RGBA value:
+
+                                                                - body {background-color: rgba(201, 76, 76, 0.3);}
+
+==================================================================================================================================================
+
+(7).How can image repetition of the backup be controlled?
+
+
+
+                            Background-repeat:  repeat
+
+                                                
+                                             - To control the repetition of an image in the background, use the
+                                               background-repeat property.
+
+                                             - You can use repeat value for the background-repeat property if
+                                               you do want to repeat an image
+  
+                            Example:
+
+
+                                             <html>
+
+                                             <head>
+
+                                                   <style>
+
+                                                         body {
+
+                                                                 background-image: url("img1.jpg");
+
+                                                                 background-repeat: repeat;
+
+                                                                             }
+
+                                                   </style>
+
+                                             </head>
+
+                                             <body>
+
+                                             </body>
+
+                                             </html>
+
+==================================================================================================================================================
+
+(8).What is the use of the background-position property? 
+
+
+                                    - The background-position property sets the starting position of a background 
+                                      image.
+
+
+                             example:
+
+                                     body {
+
+                                           background-image: url('w3css5.gif');
+
+                                           background-repeat: repeat;
+
+                                           background-attachment: fixed;
+
+                                           background-position: right buttom ;
+
+                                                }
+
+==================================================================================================================================================
+
+(9).  Which property controls the image scroll in the background?
+
+
+
+                       Background-Attachment Property :
+
+                            
+
+                                           - The background-attachment property in CSS is used to specify the kind
+                                             of attachment of the background image with respect to its container.
+
+                                           - It can be set to scroll or make it remain fixed. It can be applied to
+                                             all HTML elements.
+                                          
+
+
+
+                                Syntax:
+ 
+
+
+                                           - background-attachment: scroll;
+  
+                                           - background-attachment: fixed;
+
+==================================================================================================================================================
+
+(10). Why should background and color be used as separate properties?
+
+
+
+                                             - Separating background and color as independent properties allows 
+                                               for more flexibility and control in styling elements within a user
+                                               interface or a web page.
+
+                                             - The background refers to the area behind an element,  such as the 
+                                               background color or an image applied to it, while the color refers
+                                               to the foreground color of the text or the element itself. 
+
+                                             - By keeping them separate, you can easily distinguish between the two
+                                               and apply distinct styles to each, ensuring good visual contrast and
+                                              cccc readability.
+
+==================================================================================================================================================
+
+(11).  How to center block elements using CSS1?
+
+
+
+                          Step 1: Define the external width
+
+
+                                              - We need to define the external width.
+
+                                              - Block-level elements have the default width of 100% of the webpage, so
+                                                for centering the block element, we need space around it.
+
+                                              - So for generating the space, we are giving it a width.
+
+
+                          Step 2: Set the left-margin and the right-margin of the element to auto
+
+                                        
+                                              - Since we produced a remaining space by providing external width so now we
+                                                need to align that space properly that’s why we should use margin property.
+
+                                              - Margin is a property that tells how to align a remaining space.
+
+                                              - So for centering the element you must set left-margin to auto and right-margin 
+                                                to auto.
+
+
+                                 Example:
+
+                                        element {
+
+                                               width:200px;
+
+                                               margin: auto;
+
+                                                 }
+
+==================================================================================================================================================
+
+(12). How to maintain the CSS specifications?
+
+
+                                              - The Specification defines how CSS properties should be implemented by browser vendors
+                                                along with detailed algorithms, code samples and tabular information.
+
+                                              - Comment your CSS code to explain its purpose, usage, and any dependencies.
+
+                                              - This documentation helps other developers understand and maintain the codebase in the future.
+
+                                              - Maintain a consistent coding style and naming conventions throughout your CSS
+                                                codebase.Consistency helps in readability, collaboration, and easier maintenance.
+
+==================================================================================================================================================
+
+(13). What are the ways to integrate CSS as a web page?
+
+
+                                       1.inline css
+
+                                       2.internal css
+                                         
+                                       3.External CSS
+
+
+
+                               1. Inline CSS:
+                                                 
+                                          - Inline CSS involves adding CSS directly within an HTML element's style attribute.
+
+                                          - This method is useful for applying specific styles to individual elements.
+
+                                      example:
+ 
+
+                                               <p style="color: blue; font-size: 26px;">i am krish </p>
+
+
+               
+                               2. Internal CSS:
+
+
+                                          - Internal CSS allows you to define CSS rules within the <style> tags in the <head> 
+                                            section of an HTML document.
+
+                                          - This method is suitable for applying styles to multiple elements within a single page.
+
+
+                                       example:
+
+               
+                                               <head>
+
+                                                      <style>
+
+                                                          p {
+
+                                                             color: blue ;
+
+                                                             font-size: 26px;
+
+                                                                }
+
+                                                      </style>
+
+                                                 </head>
+
+                                                 <body>
+
+                                    
+                                                         <p>i am krish</p>
+
+                                                 </body>
+
+
+
+                                3. External CSS:
+
+                                          - External CSS involves creating a separate CSS file with the .css extension and linking
+                                            it to your HTML document using the <link> tag.
+
+                                          - This method is ideal for applying styles across multiple pages of a website.
+
+                                
+
+                                        example {style.css}:
+
+
+                                              <head>
+
+
+                                                  <link rel="stylesheet" type="text/css" href="style.css">
+
+
+                                              </head>
+
+                                                        <body>
+
+                                                              <p>i am krish </p>
+
+                                                        </body>
+
+                                           In the style.css file:
+
+                                                              p {
+
+                                                                    color: blue;
+
+                                                                    font-size: 26px;
+
+ 
+                                                                       }
+
+==================================================================================================================================================
+
+(14).  What is embedded style sheets?
+
+
+
+                                            - it is also known as embedded CSS (Cascading Style Sheets), refer to a method
+                                              of including CSS code directly within an HTML document.
+                                   
+                                            - CSS is a styling language used to define the appearance and layout of web pages.
+  
+                                            - With embedded style sheets, CSS rules are placed within the <style> tags in the
+                                              <head> section of an HTML document.
+
+                                            - This allows the style definitions to be specific to that particular document, as 
+                                              opposed to applying styles globally across multiple pages.
+
+                                            - The embedded CSS rules take precedence over external style sheets, but they can be
+                                              overridden by inline styles.
+
+==================================================================================================================================================
+
+(15).What are the external style sheets?
+
+
+                                           - These style sheets are created separately from the HTML content and are linked to
+                                             the HTML documents using the <link> element.
+
+                                           - When using an external style sheet, you create a separate file with a .css extension 
+                                             that contains CSS code.
+
+                                           - To link an external style sheet to an HTML document, you need to include a <link> 
+                                             element in the <head> section of the HTML document.
+
+                                           - The <link> element specifies the relationship between the HTML file and the external 
+                                             style sheet. 
+
+==================================================================================================================================================
+
+(16).What are the advantages and disadvantages of using external style sheets?
+
+
+                            Advantages :
+                                      
+
+                                            - With the help of External Style Sheets, the styles of numerous documents can be 
+                                              organized from one single file.
+               
+                                            - In External Style Sheets, Classes can be made for use on numerous HTML element types
+                                              in many forms of the site.
+
+                                            - In complex contexts, Methods like selector and grouping can be implemented to apply styles.
+
+
+                           Disadvantages :
+
+
+                                            - An extra download is essential to import style information for each file.
+
+                                            - The execution of the file may be deferred till the external style sheet is loaded.
+
+                                            - While implementing style sheets, we need to test Web pages with multiple browsers in order to
+                                              check compatibility issues.
+
+==================================================================================================================================================
+
+(17).What is the meaning of the CSS selector?
+
+
+                            CSS selector :
+
+                                             - A CSS selector selects the HTML element(s) you want to style.
+
+
+                            Types Of CSS Selectors:
+
+
+                                              - Universal selector (selects all html elements using * symbol)
+
+                                              - Simple selectors (select elements based on name, id, class)
+
+                                              - Combinator selectors (select elements based on a specific relationship between them)
+
+                                              - Pseudo-class selectors (select elements based on a certain state)
+
+                                              - Pseudo-elements selectors (select and style a part of an element)
+
+                                              - Attribute selectors (select elements based on an attribute or attribute value) 
+
+
+==================================================================================================================================================
+
+(18). What are the media types allowed by CSS?
+
+
+                                            - The names chosen for CSS media types reflect target devices for which the relevant
+                                              properties make sense.
+                                            
+                                            - They give a sense of what device the media type is meant to refer to.
+
+==================================================================================================================================================
+
+(19). what is the rule set?
+
+
+                                            - A CSS ruleset is various affirmations to various pieces or elements of the document.
+                   
+                                            - The objective is to apply a bunch of properties for certain distinct qualities to a
+                                              solitary, or a particular arrangement of components in the connected HTML page. 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

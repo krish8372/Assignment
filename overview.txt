@@ -1,0 +1,158 @@
+                                                             overview of it 
+
+industry
+___________________________________________________________________________________________________________________________________________________
+
+(1). what is software ? what is software engineering ?
+
+
+                             - SOFTWARE : software is a set of instructiones,data or programs used to
+                               operate computers and execute specific tasks.
+ 
+                             - SOFTWARE ENGINEERING : software engineering is the process of designing , developing 
+                               testing, and maintaining  software.
+
+==================================================================================================================================================
+
+(2). explain types of software.
+
+                             ( system )
+                       
+                                  - general-purpose software that manages basic system resources and processes
+                                    
+                                  - runs any time the computer is on
+
+                                  - written in low-level assembly language or machine code 
+
+                                  - must meet specific hardware needs interacts closly with hardware
+ 
+                                  - is necessary for the system to function 
+
+
+                             ( application )
+
+                                  - isn't needed for the system to function 
+
+                                  - software that performs specific tasks to meet user needs 
+
+                                  - wrriten in higher-level languages , such as python and javascript 
+
+                                  - needs system software to run 
+
+                                  - user or admin installs software when needed
+
+                                  - user triggers and stops the prpogram 
+
+==================================================================================================================================================
+
+(3). what is sdlc ? explain each phase of sdlc.
+
+                                 - sdlc is the cost-effective and time-efficent process that
+                                   devlopment teams use to design and bulid high-quality software
+
+
+                             (6 stage)
+                               
+                                 (1) Planning And Requirement Analysis:
+
+                                       - Planning is the crucial step in everything and so as in 
+                                         software development. In this same stage, requirement 
+                                         analysis is also performed by the developers of the
+                                         organization. This is attained from the inputs from the 
+                                         customers, sales department/market surveys.
+
+                                       - The information from this analysis forms the building block 
+                                         of a basic project. The quality proof of the project is a result
+                                         of planning. Thus, in this stage, the basic project is designed 
+                                         with all the available information.
+
+                                 (2) Defining Requirements:
+
+                                       - In this stage, all the requirements for the target software are
+                                         specified. These requirements get approval from the customers,
+                                         market analysts, and stakeholders.
+
+                                 (3) Designing Architecture:
+
+                                       -  SRS is a reference for software designers to come out with the 
+                                          best architecture for the software. Hence, with the requirements
+                                          defined in SRS, multiple designs for the product architecture are
+                                          present in the Design Document Specification (DDS).
+
+                                       - This DDS is assessed by market analysts and stakeholders. After evaluating
+                                         all the possible factors, the most practical and logical design is chosen 
+                                         for the development.
+
+                                 (4) Developing Product:
+
+                                       - At this stage, the fundamental development of the product starts. For this,
+                                         developers use a specific programming code as per the design in the DDS.
+                                         Hence, it is important for the coders to follow the protocols set by the
+                                         association.
+
+                                       - Conventional programming tools like compilers, interpreters, debuggers, etc. 
+
+                                 (5) Product Testing and Integration:
+
+                                       - After the development of the product, testing of the software is necessary
+                                         to ensure its smooth execution. Although, minimal testing is conducted at
+                                         every stage of SDLC.
+
+                                 (6) Deployment and Maintenance Of Product:
+
+                                       - If it performs well, the organization sends out the product as a whole.
+                                         After retrieving beneficial feedback, the company releases it as it is
+                                         or with auxiliary improvements to make it further helpful for the customers.
+                                         However, this alone is not enough. Therefore, along with the deployment, 
+                                         the product’s supervision.
+
+==================================================================================================================================================
+
+(4).What is DFD? Create a DFD diagram on flipcart.
+
+                                
+                                  - DFD is the abbreviation for Data Flow Diagram. The flow of data of a system or
+                                    a process is represented by DFD.
+
+                                  - It also gives insight into the inputs and outputs of each entity and the process 
+                                    itself.
+
+                                  - DFD does not have control flow and no loops or decision rules are present.
+
+                                  - Specific operations depending on the type of data can be explained by a flowchart.
+
+                                  - It is a graphical tool, useful for communicating with users ,managers and other
+                                    personnel.
+
+                                  - It is useful for analysing existing as well as proposed system.
+
+==================================================================================================================================================
+
+(5).What is Flow chart? Create a flowchart to make addition of two numbers.
+
+                                  -  Flowcharts are nothing but the graphical representation of the data or the
+                                     algorithm for a better understanding of the code visually.
+
+                                  - It displays step-by-step solutions to a problem, algorithm, or process. It 
+                                    is a pictorial way of representing steps that are preferred by most beginner-
+                                    level programmers to understand algorithms of computer science, thus it
+                                    contributes to troubleshooting the issues in the algorithm.
+
+                                  - A flowchart is a picture of boxes that indicates the process flow in a
+                                    sequential manner.
+
+                                  - Since a flowchart is a pictorial representation of a process or algorithm,
+                                    it’s easy to interpret and understand the process.
+
+==================================================================================================================================================
+
+(6). What is Use case Diagram? Create a use-case on bill payment on paytm.
+
+                                  - A use case diagram is a visual summarization of interactions and relationships
+                                    within a system. These diagrams show a very broad view of a system. They may 
+                                    show systems in computer software, businesses or customer experiences. 
+
+                                  - A use case diagram shows a model scenario in which individuals interact with
+                                    a system using a series of specialized symbols and connectors.
+
+==================================================================================================================================================
